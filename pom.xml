@@ -12,6 +12,16 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<easy-random.version>5.0.0</easy-random.version>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jeasy</groupId>
+			<artifactId>easy-random-core</artifactId>
+			<version>${easy-random.version}</version>
+		</dependency>
+	</dependencies>
 
 </project>
